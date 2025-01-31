@@ -1,0 +1,90 @@
+[submodule "pulled_repos/11/django"]
+	path = pulled_repos/11/django
+	url = git@github.com:django/django.git
+[submodule "pulled_repos/10/pytorch"]
+	path = pulled_repos/10/pytorch
+	url = git@github.com:pytorch/pytorch.git
+[submodule "pulled_repos/9/thefuck"]
+	path = pulled_repos/9/thefuck
+	url = git@github.com:nvbn/thefuck.git
+[submodule "pulled_repos/8/yt-dlp"]
+	path = pulled_repos/8/yt-dlp
+	url = git@github.com:yt-dlp/yt-dlp.git
+[submodule "pulled_repos/7/transformers"]
+	path = pulled_repos/7/transformers
+	url = git@github.com:huggingface/transformers.git
+[submodule "pulled_repos/6/AutoGPT"]
+	path = pulled_repos/6/AutoGPT
+	url = git@github.com:Significant-Gravitas/AutoGPT.git
+[submodule "pulled_repos/5/tensorflow"]
+	path = pulled_repos/5/tensorflow
+	url = https://github.com/tensorflow/tensorflow.git
+[submodule "pulled_repos/4/Python"]
+	path = pulled_repos/4/Python
+	url = https://github.com/TheAlgorithms/Python.git
+[submodule "pulled_repos/3/project-based-learning"]
+	path = pulled_repos/3/project-based-learning
+	url = git@github.com:practical-tutorials/project-based-learning.git
+[submodule "pulled_repos/2/awesome-python"]
+	path = pulled_repos/2/awesome-python
+	url = git@github.com:vinta/awesome-python.git
+[submodule "pulled_repos/1/system-design-primer"]
+	path = pulled_repos/1/system-design-primer
+	url = git@github.com:donnemartin/system-design-primer.git
+[submodule "pulled_repos/16/devops-exercises"]
+	path = pulled_repos/16/devops-exercises
+	url = git@github.com:bregman-arie/devops-exercises.git
+[submodule "pulled_repos/15/flask"]
+	path = pulled_repos/15/flask
+	url = git@github.com:pallets/flask.git
+[submodule "pulled_repos/14/manim"]
+	path = pulled_repos/14/manim
+	url = git@github.com:3b1b/manim.git
+[submodule "pulled_repos/13/core"]
+	path = pulled_repos/13/core
+	url = git@github.com:home-assistant/core.git
+[submodule "pulled_repos/12/fastapi"]
+	path = pulled_repos/12/fastapi
+	url = git@github.com:fastapi/fastapi.git
+[submodule "pulled_repos/17/superset"]
+	path = pulled_repos/17/superset
+	url = git@github.com:apache/superset.git
+[submodule "pulled_repos/18/leetcode"]
+	path = pulled_repos/18/leetcode
+	url = git@github.com:azl397985856/leetcode.git
+[submodule "pulled_repos/19/30-Days-Of-Python"]
+	path = pulled_repos/19/30-Days-Of-Python
+	url = git@github.com:Asabeneh/30-Days-Of-Python.git
+[submodule "pulled_repos/20/python-patterns"]
+	path = pulled_repos/20/python-patterns
+	url = git@github.com:faif/python-patterns.git
+[submodule "pulled_repos/21/LLMs-from-scratch"]
+	path = pulled_repos/21/LLMs-from-scratch
+	url = git@github.com:rasbt/LLMs-from-scratch.git
+[submodule "pulled_repos/22/Made-With-ML"]
+	path = pulled_repos/22/Made-With-ML
+	url = git@github.com:GokuMohandas/Made-With-ML.git
+[submodule "pulled_repos/23/TTS"]
+	path = pulled_repos/23/TTS
+	url = git@github.com:coqui-ai/TTS.git
+[submodule "pulled_repos/24/python-cheatsheet"]
+	path = pulled_repos/24/python-cheatsheet
+	url = git@github.com:gto76/python-cheatsheet.git
+[submodule "pulled_repos/25/wtfpython"]
+	path = pulled_repos/25/wtfpython
+	url = git@github.com:satwikkansal/wtfpython.git
+[submodule "pulled_repos/26/freqtrade"]
+	path = pulled_repos/26/freqtrade
+	url = git@github.com:freqtrade/freqtrade.git
+[submodule "pulled_repos/28/cli"]
+	path = pulled_repos/28/cli
+	url = git@github.com:httpie/cli.git
+[submodule "pulled_repos/29/sqlmap"]
+	path = pulled_repos/29/sqlmap
+	url = git@github.com:sqlmapproject/sqlmap.git
+[submodule "pulled_repos/30/plane"]
+	path = pulled_repos/30/plane
+	url = git@github.com:makeplane/plane.git
+[submodule "pulled_repos/27/gradio"]
+	path = pulled_repos/27/gradio
+	url = git@github.com:gradio-app/gradio.git
