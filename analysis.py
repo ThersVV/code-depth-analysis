@@ -1,14 +1,15 @@
 from pathlib import Path
 from os import scandir
+""" 
 from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib.lines as mlines
 import matplotlib.patches as mpatches
-
+ """""" 
 red_patch = mpatches.Patch(color='red', label='Changed tickets', alpha=0.5)
 green_patch = mpatches.Patch(color='green', label='Unchanged tickets', alpha=0.5)
-
-pulled_repos_path = "C:\\D_Drive\\Trojan_horse\\Python\\code-depth-analysis\\pulled_repos"
+ """
+pulled_repos_path = "C:\\D_Drive\\Trojan_horse\\jupyter\\python_repos_analysis\\pulled_repos"
 
 # A function that generates a graph of the indentation in the files. Probably a lot of them overlayed?
 
@@ -28,7 +29,7 @@ def analyse_file(path_to_file: str) -> float:
 
     return total_indent / total_lines if total_lines > 0 else 0
 
-
+""" 
 def chart1(xs: list[int], ys: list[bool]):
     _fig, ax = plt.subplots(figsize=(10, 3))
     ax.legend(handles=[red_patch, green_patch])
@@ -47,7 +48,7 @@ def chart1(xs: list[int], ys: list[bool]):
     plt.grid(axis="y", linestyle="--", alpha=0.5)
 
     plt.show()
-
+ """
 def run():
     subfolders = [f.path for f in scandir(pulled_repos_path) if f.is_dir()]
     indentations = []
@@ -71,4 +72,9 @@ def run():
         is_real.append(is_real_project)
         print(f"average_indentation = {average_indentation}")
         print(f"is_real_project = {is_real_project}")
-    chart1(indentations, is_real)
+
+        with open(Path(folder) / "identation", "w") as file:
+            file.write(f"average_indentation = {average_indentation}\n")
+            #file.write(f"is_real_project = {is_real_project}")
+    # chart1(indentations, is_real)
+run()
