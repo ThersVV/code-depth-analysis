@@ -16,7 +16,7 @@ def chart(indents: list[int], name: str, reals: list[bool]):
     plt.scatter(x_labels, indents, color=["green" if y else "red" for y in reals], s=50)
 
     # Labels and title
-    plt.ylabel("Indentation deviation")
+    plt.ylabel(name)
     plt.grid(axis="y", linestyle="--", alpha=0.5)
 
     plt.show()
